@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color:beige;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.avatar {
+    width: 210px ;
+    border-radius:  25% ;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25) ;
+}
+
+.container{
+    max-width:800px;
+    margin: auto;
+    
+
+}
+
+
+.bg-pink{
+    background: #fed1ff;
+}
+
+.bg-blue{
+    background: #d1fcff;
+}
+
+.card {
+    padding:15px 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    
+}
+
+table {    
+    border-collapse: separate;
+    border-spacing: 10px 2px;
+    
+}
+
+table td:first-child{  
+    text-align: left;
+}
+
