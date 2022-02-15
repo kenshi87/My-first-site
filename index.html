@@ -8,15 +8,17 @@
 <body>
     <div class="container">
         <div class="info">
-            <h1>Резюме для трудоустройства.</h1>
             <img src="Bulkin.jpg" alt="Фотка сани булкина" class="avatar">
-            <h2>Александр Булочкин.</h2>
-            <p>Начинающий верстальщик. Обучился таким язкам, как <strong>HTML,CSS и JavaScript.</strong></p>
-            <p><em>Ищу работу или заказы.</em></p>
+            <div class="information">
+            <h1>Резюме для трудоустройства.</h1>
+                <h2>Александр Булочкин.</h2>
+                <p>Начинающий верстальщик. Обучился таким язкам, как <strong>HTML,CSS и JavaScript.</strong></p>
+                <p><em>Ищу работу или заказы.</em></p>
+            </div>
         </div>
         <div class="card bg-pink">
             <h2>Мои навыки работы.</h2>
-            <ul>
+            <ul class="list">
                 <li>Владею этими тремя языками</li>
                 <li>Дизайн сайта</li>
                 <li>Настройка вашего сайта</li>
@@ -25,50 +27,50 @@
         </div>
         <div class="card bg-blue">
             <h2>Прохождения обучения</h2>
-            <div class="table">
-                <table>
+            <table class="table">
                     <tr>
-                        <th>Место учебы</th>
-                        <th>Время обучения</th>
-                        <th>Уровень способностей</th>
-                    </tr>
-                    <tr>
-                        <td>Самообразование</td>
-                        <td>2 года</td>
-                        <td>middle</td>
-                    </tr>
-                    <tr>
-                        <td>Университет ИТМО</td>
-                        <td>4 года</td>
-                        <td>middle</td>
-                    </tr>
+                    <th>Место учебы</th>
+                    <th>Время обучения</th>
+                    <th>Уровень способностей</th>
+                </tr>
+                <tr>
+                    <td>Самообразование</td>
+                    <td>2 года</td>
+                    <td>middle</td>
+                </tr>
+                <tr>
+                    <td>Университет ИТМО</td>
+                     <td>4 года</td>
+                    <td>middle</td>
+                </tr>
                     
-                </table>
+            </table>
         </div>
+        <div class="contact">
+            <h2>Связь со мной!</h2>
+            <form action="/">
+         <div class="row">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Вводите ваше имя...">
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Вводите ваш email...">
+            </div>
         </div>
-
-        <h2>Связь со мной</h2>
-        <form action="/">
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name">
-
-            <br>
-            <br>
-
-            <label for="email">Ваш email</label>
-            <input type="email" id="email">
-
-            <br>
-            <br>
-
-            <label for="text">Ваш ответ</label>
-            <textarea id="text" rows="2" cols="20"></textarea>
-            <input type="submit">
-        </form>
-
-    
+                
+            <div class="form-group">
+                <label for="text">Ваш ответ:</label>
+                <textarea id="text" rows="2" cols="20"></textarea>
+            </div>
+                <input type="submit">
+            </form>
+        </div>
+        
 
         <a href="https://vk.com/kenshi_14" target="_blank">Мой вк</a>
+        
     </div>
 </body>
 </html>
